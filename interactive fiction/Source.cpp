@@ -374,7 +374,7 @@ int main()
 		isLightOn = false;
 		lightCheck = false;
 		playAgain = false;
-
+		 
 		GameEngine();
 		goAgain(); //function run for confirmation on playing again
 	} while (playAgain);
