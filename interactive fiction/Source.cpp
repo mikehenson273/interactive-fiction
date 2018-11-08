@@ -152,7 +152,7 @@ void openDoor()
 			checkAgain = false;
 			playAgain = true;
 		}
-
+		 
 		else //shouldn't hit unless something goes wrong
 		{
 			SetConsoleTextAttribute(GetStdHandle(STD_OUTPUT_HANDLE), 4); //sets color for text to red
